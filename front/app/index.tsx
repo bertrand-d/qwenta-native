@@ -1,15 +1,8 @@
-import { Text, View, Button } from "react-native";
-import { useState } from "react";
+import { Text, View} from "react-native";
+import style from '../Style.js'
+
 
 export default function Index() {
-  const [count, setCount] = useState(0)
-
-  const handleOnPress = () => {
-    console.log(count)
-    setCount(count + 1)
-    console.log(count)
-  }
-
   return (
     <View
       style={{
@@ -18,8 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>{count}</Text>
-      <Button title ="Increment" onPress={handleOnPress}/>
+      <Text style={style.button}>Edit app/index.tsx to edit this screen test 2.</Text>
     </View>
   );
 }
