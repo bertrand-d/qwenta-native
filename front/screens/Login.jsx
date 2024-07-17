@@ -8,7 +8,7 @@ export default function Login() {
     const [email, setEmail] = useState("");
 
     return (
-        <View className="flex-1 items-center justify-center bg-blue">
+        <View className="flex-1 items-center justify-center bg-primary">
             <View style={style.loginContainer}>
                 <View style={style.iconContainer}>
                     <Image source={require('@/assets/images/user.png')} />
