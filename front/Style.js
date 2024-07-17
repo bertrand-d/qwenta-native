@@ -18,6 +18,15 @@ export default StyleSheet.create({
 
     /*COMPONENTS STYLES*/
 
+    //text input
+    textInput: {
+        fontFamily: "Epilogue_500Medium",
+        borderWidth: 1,
+        borderColor: "#C4C4C4",
+        borderRadius: 5,
+        padding: 10
+    },
+
     //button
     button: {
         fontFamily: "Epilogue_400Regular",
@@ -32,27 +41,9 @@ export default StyleSheet.create({
 
     //label text Input
     labelTextInput: {
-        textAlign:"left",
+        textAlign: "left",
         marginBottom: 10,
         marginTop: 50
-    },
-
-    //text input
-    textInput: {
-        fontFamily: "Epilogue_500Medium",
-        borderWidth: 1,
-        borderColor: "#C4C4C4",
-        borderRadius: 5,
-        padding: 10
-    },
-
-    //white container
-    whiteContainer: {
-        backgroundColor: "white",
-        borderRadius: 10,
-        paddingTop: 70,
-        paddingHorizontal: "15%",
-        paddingBottom: 35
     },
 
     //login steps
@@ -62,17 +53,5 @@ export default StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         padding: 20
-    },
-    loginContainer: {
-        position: "relative",
-    },
-    iconContainer: {
-        position: "absolute",
-        alignSelf: "center",
-        top: -80,
-        zIndex: 1,
-        backgroundColor: "white",
-        padding: "15%",
-        borderRadius: 100
     }
 })

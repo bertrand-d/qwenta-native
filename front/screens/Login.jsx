@@ -9,11 +9,11 @@ export default function Login() {
 
     return (
         <View className="flex-1 items-center justify-center bg-primary">
-            <View style={style.loginContainer}>
-                <View style={style.iconContainer}>
+            <View className="relative">
+                <View className="absolute bg-white p-[15%] rounded-full z-10 -top-20 self-center">
                     <Image source={require('@/assets/images/user.png')} />
                 </View>
-                <View style={style.whiteContainer}>
+                <View className="bg-white rounded-md pt-20 px-[15%] pb-10">
                     <MyText style={style.fontTitle}>Connexion</MyText>
                     <MyText>Connectez-vous grâce à votre adresse e-mail</MyText>
                     <MyText style={style.labelTextInput}>Adresse e-mail</MyText>
