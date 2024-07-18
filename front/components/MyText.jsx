@@ -1,5 +1,5 @@
 import { Text } from "react-native";
-import styles from '../Style.js'
+import styles from '../styles/Fonts.js'
 
 export default function MyText(props) {
   return (

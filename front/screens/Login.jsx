@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigation } from '@react-navigation/native';
 import MyText from "../components/MyText.jsx";
 import MyButton from "@/components/MyButton.jsx";
-import style from '../Style.js';
+import style from '../styles/Style.js';
 
 export default function Login() {
     const navigation = useNavigation();

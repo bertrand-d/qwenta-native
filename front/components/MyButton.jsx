@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pressable } from 'react-native';
 import MyText from './MyText.jsx';
-import style from '../Style.js';
+import style from '../styles/Components.js';
 
 export default function MyButton(props) {
     const { title = 'Default' } = props;
