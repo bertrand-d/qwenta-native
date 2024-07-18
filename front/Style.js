@@ -26,6 +26,7 @@ export default StyleSheet.create({
     },
     
     /*COMPONENTS STYLES*/
+
     //button
     button: {
         fontFamily: "Epilogue_400Regular",
@@ -62,8 +63,10 @@ export default StyleSheet.create({
         paddingBottom: 35
     },
 
+    /* SCREENS */
+
     //login steps
-    loginView: {
+    loginStepView: {
         backgroundColor: "#8BC7B1",
         flex: 1,
         justifyContent: "center",
