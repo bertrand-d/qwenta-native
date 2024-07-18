@@ -35,8 +35,8 @@ export default StyleSheet.create({
     whiteContainer: {
         backgroundColor: "white",
         borderRadius: 10,
-        paddingTop: 70,
+        width: "90%",
         paddingHorizontal: "15%",
-        paddingBottom: 35
+        paddingVertical: 35
     }
 })
