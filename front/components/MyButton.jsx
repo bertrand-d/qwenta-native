@@ -7,7 +7,7 @@ export default function MyButton(props) {
     const { title = 'Default' } = props;
 
     return (
-        <Pressable style={style.button}>
+        <Pressable style={[style.button, props.style]}>
             <MyText style={style.buttonFont}>{title}</MyText>
         </Pressable>
     );

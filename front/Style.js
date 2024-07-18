@@ -13,18 +13,25 @@ export default StyleSheet.create({
         fontSize: 34,
         color: "#8BC7B1",
         textAlign: "center",
-        marginBottom: 10
+    },
+    
+    /*UTILITY CLASSES */
+
+    mT50 : {
+        marginTop: 50
     },
 
+    mB10 : {
+        marginBottom: 10
+    },
+    
     /*COMPONENTS STYLES*/
-
     //button
     button: {
         fontFamily: "Epilogue_400Regular",
         backgroundColor: "#8BC7B1",
         padding: 25,
         borderRadius: 5,
-        marginTop: 50
     },
     buttonFont: {
         color: "white"
@@ -34,7 +41,7 @@ export default StyleSheet.create({
     labelTextInput: {
         textAlign:"left",
         marginBottom: 10,
-        marginTop: 50
+  
     },
 
     //text input
